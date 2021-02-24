@@ -13,8 +13,10 @@ export const Title = styled.h2`
     margin-bottom: 2rem;
 `;
 
-export const Description = styled.p`
-    font-size: 2rem;
-    line-height: 3rem;
-    font-weight: 400;
+export const Description = styled.div`
+    p {
+        font-size: 2rem;
+        line-height: 3rem;
+        font-weight: 400;
+    }
 `;
