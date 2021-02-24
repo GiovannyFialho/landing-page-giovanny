@@ -11,7 +11,7 @@ const icons = {
 
 const LinksSociais = ({ title, url }: RedesSociaisProps) => (
     <Link href={url} title={title} target="_blank" rel="noopener">
-        {icons[title]}
+        {icons[title as keyof typeof icons]}
     </Link>
 );
 
