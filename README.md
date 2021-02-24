@@ -1,4 +1,4 @@
-# React Boilerplate ⚛
+# Landing Page ⚛
 ## Iniciando projeto com este boilerplate
 > Caso não tenha yarn instalado na máquina, basta trocar por ```npx create-next-app```
 ```shell
