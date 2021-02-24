@@ -7,7 +7,7 @@ describe("<Main />", () => {
         const { container } = render(<Main />);
 
         expect(
-            screen.getByRole("heading", { name: /React Boilerplate/i })
+            screen.getByRole("heading", { name: /Bio/i })
         ).toBeInTheDocument();
 
         expect(container.firstChild).toMatchSnapshot();
