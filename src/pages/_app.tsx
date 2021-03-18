@@ -7,14 +7,15 @@ function App({ Component, pageProps }: AppProps) {
     return (
         <>
             <Head>
-                <title>React avançado - Boilerplate</title>
+                <title>Giovanny Fialho</title>
                 <link rel="shortcut icon" href="/img/icon-192.png" />
                 <link rel="apple-touch-icon" href="/img/icon-512.png" />
                 <meta
                     name="description"
-                    content="Iniciando projeto simples com desenvolvimento em TypeScript, React, NextJS e Styled Components"
+                    content="Landing Page criada para mostrar resultados de estudos"
                 />
                 <link rel="manifest" href="/manifest.json" />
+                <meta property="og:image" content="/img/cover-share.png" />
             </Head>
             <GlobalStyles />
             <Component {...pageProps} />
