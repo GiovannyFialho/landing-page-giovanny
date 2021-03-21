@@ -2,10 +2,10 @@ import { Wrapper, Title, Description } from "./styles";
 
 import { SectionMainProps } from "types/api";
 
-const Main = ({ title, description }: SectionMainProps) => (
+const Main = ({ titulo, descricao }: SectionMainProps) => (
     <Wrapper>
-        <Title>{title}</Title>
-        <Description dangerouslySetInnerHTML={{ __html: description }} />
+        <Title>{titulo}</Title>
+        <Description dangerouslySetInnerHTML={{ __html: descricao }} />
     </Wrapper>
 );
 

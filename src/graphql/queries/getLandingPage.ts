@@ -1,9 +1,9 @@
 const GET_LANDINGPAGE = /* GraphQL */ `
     fragment header on LandingPage {
         header {
-            title
+            titulo
             redesSociais {
-                title
+                titulo
                 url
             }
         }
@@ -11,8 +11,8 @@ const GET_LANDINGPAGE = /* GraphQL */ `
 
     fragment main on LandingPage {
         main {
-            title
-            description
+            titulo
+            descricao
         }
     }
 

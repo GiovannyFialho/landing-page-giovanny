@@ -9,9 +9,9 @@ const icons = {
     Linkedin: <FaLinkedinIn />
 };
 
-const LinksSociais = ({ title, url }: RedesSociaisProps) => (
-    <Link href={url} title={title} target="_blank" rel="noopener">
-        {icons[title as keyof typeof icons]}
+const LinksSociais = ({ titulo, url }: RedesSociaisProps) => (
+    <Link href={url} title={titulo} target="_blank" rel="noopener">
+        {icons[titulo as keyof typeof icons]}
     </Link>
 );
 

@@ -1,4 +1,4 @@
-# Landing Page ⚛
+# Landing Page Giovanny ⚛
 ## Instalação das dependências
 ```shell
 yarn

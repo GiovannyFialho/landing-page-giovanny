@@ -1,16 +1,16 @@
 export type RedesSociaisProps = {
-    title: string;
+    titulo: string;
     url: string;
 };
 
 export type SectionHeaderProps = {
-    title: string;
+    titulo: string;
     redesSociais: RedesSociaisProps[];
 };
 
 export type SectionMainProps = {
-    title: string;
-    description: string;
+    titulo: string;
+    descricao: string;
 };
 
 export type LandingPage = {

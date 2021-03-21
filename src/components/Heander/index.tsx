@@ -4,13 +4,13 @@ import LinksSociais from "../LinksSociais";
 
 import { SectionHeaderProps } from "types/api";
 
-const Heander = ({ title, redesSociais }: SectionHeaderProps) => (
+const Heander = ({ titulo, redesSociais }: SectionHeaderProps) => (
     <ContainerHead>
-        <Title>{title}</Title>
+        <Title>{titulo}</Title>
 
         <RedesSociais>
-            {redesSociais.map(({ title, url }) => (
-                <LinksSociais key={title} title={title} url={url} />
+            {redesSociais.map(({ titulo, url }) => (
+                <LinksSociais key={titulo} titulo={titulo} url={url} />
             ))}
         </RedesSociais>
     </ContainerHead>
